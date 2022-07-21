@@ -15,6 +15,6 @@ export const actions = {
 };
 storiesOf('components/LocationCell', module).add('default', () => (
   <Container>
-    <LocationCell text={'LocationCell Component'} {...actions} />
+    <LocationCell text={'Cadastro Usuário'} {...actions} />
   </Container>
 ));
