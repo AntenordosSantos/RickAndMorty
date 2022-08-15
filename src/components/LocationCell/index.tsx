@@ -1,27 +1,36 @@
 import React from 'react';
+import { Location } from 'src/data/models/location';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
   padding: 20px;
-  border-width: 1px;
-  border-color: ${({ theme }) => theme.color.gray.c500};
-  border-radius: 4px;
+  border-bottom-width: 1px;
+  border-color: #8B0000;
 `;
 
-const Text = styled.Text`
+const NameText = styled.Text`
+  font-family: ${({ theme }) => theme.fontFamily.inter.bold};
+  color: ${({ theme }) => theme.color.gray.c900};
+  font-size: 18px;
+`;
+
+const InfoText = styled.Text`
+  margin-top: 2px;
   font-family: ${({ theme }) => theme.fontFamily.inter.regular};
   color: ${({ theme }) => theme.color.gray.c900};
   font-size: 16px;
 `;
 
 interface LocationCellProps {
-  text: string;
+  location: Location;
 }
 
-export default function LocationCell({ text }: LocationCellProps) {
+export default function LocationCell({ location }: LocationCellProps) {
   return (
     <Container>
-      <Text>{text}</Text>
+      <NameText>{location.name}</NameText>
+      <InfoText>{location.type}</InfoText>
+      <InfoText>{location.dimension}</InfoText>
     </Container>
   );
 }

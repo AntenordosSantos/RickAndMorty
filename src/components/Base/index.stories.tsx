@@ -6,8 +6,7 @@ import Base from './';
 
 const Container = styled.View`
   flex: 1;
-  background-color: ${({ theme }) => theme.color.gray.c25};
-  padding: 20px;
+  background-color: #008000;
 `;
 
 export const actions = {

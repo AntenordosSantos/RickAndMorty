@@ -2,10 +2,9 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
-  padding: 20px;
-  border-width: 1px;
-  border-color: ${({ theme }) => theme.color.gray.c500};
-  border-radius: 4px;
+padding: 20px;
+border-bottom-width: 1px;
+border-color: #8B0000; 
 `;
 
 const Text = styled.Text`
