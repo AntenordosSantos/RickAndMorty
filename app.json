@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RickMarty",
-    "slug": "RickMarty",
+    "name": "RickMorty",
+    "slug": "RickMorty",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

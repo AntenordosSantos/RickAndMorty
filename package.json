@@ -1,5 +1,5 @@
 {
-  "name": "rickmarty",
+  "name": "rickmorty",
   "version": "1.0.0",
   "keywords": [
     "expo",
@@ -20,10 +20,10 @@
   "license": "MIT",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
+    "web": "SET NODE_OPTIONS=--openssl-legacy-provider && expo start --web",
     "eject": "expo eject",
     "sb": "start-storybook -p 7007",
     "sbl": "rnstl",
