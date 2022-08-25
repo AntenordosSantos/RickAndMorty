@@ -12,7 +12,7 @@ const Container = styled.View`
 
 const LOCATION_1: Location = {id: 1, name: 'Earth (c-137)', dimension: 'Dimension: C-137', type: 'planet', url: '',residents: [], created: ''};
 
-const LOCATION_2: Location = {id: 2, name: 'Sophia', dimension: 'Dimension: C-599', type: 'Human', url: '',residents: [], created: ''};
+const LOCATION_2: Location = {id: 2, name: 'Júpter', dimension: 'Dimension: C-599', type: 'Human', url: '',residents: [], created: ''};
 
 export const actions = {
   // onPress: action('onPress'),
